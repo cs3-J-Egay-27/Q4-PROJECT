@@ -1,0 +1,157 @@
+.lightbluebox {
+    position: absolute;
+    right: 10px;
+    bottom:0;
+    height: 1390px;
+    width: 1390px; 
+    background: #0097b2;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    color:white;
+    font-family: 'Poppins';
+    z-index: 1;
+    transition: transform 0.3s, text-shadow 0.3s ease;
+}
+
+.logo:hover {
+  text-shadow: 0 0 10px white;
+  transform:scale(1.1);
+}
+
+.MarineTitle {
+  position: absolute; 
+  top: 5px;
+  left: 20px;
+  color:white;
+  font-family: 'Poppins';
+  font-size: 80px;
+  line-height: 0.9em;
+  z-index: 1;
+}
+
+.Marinecontinuation {
+    position: absolute; 
+    top: 5px;
+    left: 310px;
+    color: #090088;
+    font-family: 'Poppins';
+    font-size: 80px;
+    line-height: 0.9em;
+	z-index: 1;
+ }
+
+.marine {
+  width: 500px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  color: white;
+  font-size: 18px;
+  z-index: 2;
+  transition: transform 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+.about {
+    position: absolute;
+    top:0px;
+    right:350px;
+    color:white;
+    text-align: right;
+    font-family: 'Poppins';
+    z-index: 1;
+    transition: transform 0.3s, text-shadow 0.3s ease;
+}
+
+.about:hover {
+  transform:scale(1.1);
+}
+ 
+ .life {
+   position: absolute;
+   top:0px;
+   right:235px;
+   color:white;
+   text-align: right;
+   font-family: 'Poppins';
+   z-index: 1;
+   transition: transform 0.3s, text-shadow 0.3s ease;
+ }
+ 
+ .life:hover {
+  transform:scale(1.1);
+}
+
+ 
+ .conserve {
+   position: absolute;
+   top:0px;
+   right:100px;
+   color:white;
+   text-align: right;
+   font-family: 'Poppins';
+   z-index:1;
+   transition: transform 0.3s, text-shadow 0.3s ease;
+ }
+
+ .conserve:hover {
+  transform:scale(1.1);
+}
+ 
+  .log {
+    position: absolute;
+    top:0px;
+    right:30px;
+    color:white;
+    text-align: right;
+    font-family: 'Poppins';
+    z-index:1;
+    transition: transform 0.3s, text-shadow 0.3s ease;
+  }
+
+  .log:hover {
+    transform:scale(1.1);
+  }
+ 
+  .body {
+    background-image: url(bgimage1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1070px 845px;
+    
+  }
+
+  .Page {
+    position: absolute;
+    bottom: -5px;
+    left: 130px;
+    color: white;
+    font-size: 18px;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 10px white;
+  }
+
+.vid {
+    position: absolute;
+    top: 150px;
+    right: 550px;
+	color: #090088;
+    font-size: px;
+    font-family: 'Poppins'
+}
+
+.yt {
+    position: absolute;
+    top:200px;
+	width: 520px;
+    right: 150px;
+	height: 350px;
+}
